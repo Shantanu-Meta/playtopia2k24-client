@@ -1,0 +1,17 @@
+@media screen and (max-width: 550px) {
+
+    .textArea {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-rows: repeat(2, auto); /* Two rows */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .textArea {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-rows: repeat(2, auto); /* Two rows */
+    }
+
+}
